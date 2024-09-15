@@ -1727,7 +1727,7 @@ function subAddresses(host,UUID,noTLS,newAddressesapi,newAddressescsv,newAddress
 			
 			let 伪装域名 = host ;
 			let 最终路径 = '/?ed=2560' ;
-			let 节点备注 = '';
+			let 节点备注 = '七叶祝您开心！';
 			const 协议类型 = atob(啥啥啥_写的这是啥啊);
 			
 			const vlessLink = `${协议类型}://${UUID}@${address}:${port}?encryption=none&security=&type=ws&host=${伪装域名}&path=${encodeURIComponent(最终路径)}#${encodeURIComponent(addressid + 节点备注)}`;
@@ -1785,7 +1785,7 @@ function subAddresses(host,UUID,noTLS,newAddressesapi,newAddressescsv,newAddress
 		
 		let 伪装域名 = host ;
 		let 最终路径 = '/?ed=2560' ;
-		let 节点备注 = '';
+		let 节点备注 = '七叶祝您开心！';
 		
 		if(proxyhosts.length > 0 && (伪装域名.includes('.workers.dev') || 伪装域名.includes('pages.dev'))) {
 			最终路径 = `/${伪装域名}${最终路径}`;
